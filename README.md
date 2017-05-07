@@ -2,6 +2,12 @@
 
 Script to manage SQLite user database for FreeRADIUS.
 
+To see how to configure FreeRADIUS to use the SQLite backend, see the following blog posts:
+
+[RADIUS authentication and dynamic VLAN assignment for WPA2 Enterprise using SQLite in FreeRADIUS](https://linuskarlsson.se/blog/radius-authentication-and-dynamic-vlan-assignment-for-wpa2-enterprise-using-sqlite-in-freeradius/)
+
+[RADIUS authentication with SQLite user management](https://linuskarlsson.se/blog/radius-authentication-with-sqlite-user-management/)
+
 ## Screenshots
 
 ### Main menu
@@ -18,7 +24,7 @@ Script to manage SQLite user database for FreeRADIUS.
 Licensed under the ISC license.
 
 ```
-Copyright (c) 2016, Linus Karlsson
+Copyright (c) 2016, 2017, Linus Karlsson
 
 Permission to use, copy, modify, and/or distribute this software for any purpose
 with or without fee is hereby granted, provided that the above copyright notice
