@@ -43,7 +43,7 @@ add_user() {
 	if [ $? -ne 0 ]; then exit 1; fi
 
 	# Check if username is valid.
-	if echo "$username" | grep -q -v '^[A-Za-z]\+$'; then
+	if echo "$username" | grep -q -v '^[A-Za-z][A-Za-z0-9-]*$'; then
 		# Invalid username.
 		dialog --msgbox "Invalid username. Only A-Z and a-z is allowed." 0 0
 		exit 1
