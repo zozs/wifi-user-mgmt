@@ -12,7 +12,7 @@ sqlite_sqlsep() {
 }
 
 random_password() {
-	< /dev/urandom tr -dc _A-Z-a-z-0-9|head -c"$1"
+	LC_CTYPE=C tr -dc _A-Z-a-z-0-9 < /dev/urandom |head -c"$1"
 }
 
 ask_username() {
